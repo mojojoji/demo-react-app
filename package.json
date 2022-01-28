@@ -6,9 +6,10 @@
     "pnp": true
   },
   "dependencies": {
-    "react": "16.5.2",
-    "react-dom": "16.5.2",
-    "react-scripts": "2.0.5"
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "2.0.5",
+    "@babel/plugin-transform-react-jsx": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
