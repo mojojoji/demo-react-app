@@ -1,6 +1,6 @@
-import React, {useState} from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 export default function App() {
   const [counter, setCounter] = useState(0);
@@ -13,8 +13,8 @@ export default function App() {
         </p>
         <h2>Counter : {counter}</h2>
         <div className="button-container">
-          <button onClick={() => setCounter(c => c - 1)}>Decrement</button>
-          <button onClick={() => setCounter(c => c + 1)}>Increment</button>
+          <button onClick={() => setCounter((c) => c - 1)}>Decrement</button>
+          <button onClick={() => setCounter((c) => c + 1)}>Increment</button>
         </div>
       </header>
     </div>
